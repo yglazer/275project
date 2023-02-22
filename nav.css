@@ -36,7 +36,8 @@ nav li a:hover {
   background-color: lightpink;
   color: white;
 }
-body > div {
+body > div, header, footer {
   padding-left:120px;
 }
+
 
