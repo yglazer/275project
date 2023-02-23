@@ -1,0 +1,23 @@
+.card {
+    width: 25%;
+    margin: auto;
+    padding: 10px;
+}
+
+#carousel3, #carousel, #carousel2 {
+    margin: auto;
+    width: 50%;
+}
+
+a.btn-primary {
+    margin: auto;
+    width: 100%;
+    background-color: #650119;
+}
+
+
+.accordion-button, .accordion-button:not(.collapsed) {
+    background:rgba(101,1,25,50%);
+    color: #650119;
+    box-shadow: none !important;
+}
