@@ -30,18 +30,20 @@ nav li {
 /*}*/
 nav li a:hover {
   background-color: #B1B8BC;
-  color: #F1E8EA;
+  color: black;
 }
- li.current {
+ nav li.current {
   background-color: #B1B8BC;
-  color: white;
 }
+ nav li a.current{
+   color: black;
+ }
 
 /*body > div, header, footer {
   padding-left:120px;
 }*/
 
-li {
+nav li {
   display: inline;
   float: left;
   width: 16.666%;
