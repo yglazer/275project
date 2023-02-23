@@ -17,12 +17,16 @@ nav li a {
   height:5vh;
   }
 nav ul {
-  border: 1px solid #555;
+  border: 1px solid #000000;
 }
 
 nav li {
   text-align: center;
-  border-bottom: 1px solid #555;
+  border-bottom: 1px solid #000000;
+}
+
+nav li a:active {
+  color: #000000;
 }
 
 /*li:last-child {*/
@@ -32,12 +36,10 @@ nav li a:hover {
   background-color: #B1B8BC;
   color: black;
 }
+
  nav li.current {
   background-color: #B1B8BC;
 }
- nav li a.current{
-   color: black;
- }
 
 /*body > div, header, footer {
   padding-left:120px;
