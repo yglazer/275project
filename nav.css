@@ -29,11 +29,11 @@ nav li {
 /*  border-bottom: none;*/
 /*}*/
 nav li a:hover {
-  background-color: #B2C2C4;
+  background-color: #B1B8BC;
   color: #F1E8EA;
 }
  li.current {
-  background-color: #B2C2C4;
+  background-color: #B1B8BC;
   color: white;
 }
 
