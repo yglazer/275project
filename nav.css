@@ -2,10 +2,10 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 100px;
+  /*width: 100px;*/
   background-color: lightblue;
-  height: 100%;
-  position: fixed;
+  /*height: 100%;
+  position: fixed;*/
   overflow: auto;
 }
 
@@ -40,4 +40,8 @@ body > div, header, footer {
   padding-left:120px;
 }
 
+li {
+  display: inline;
+  float: left;
+}
 
