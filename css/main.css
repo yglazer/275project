@@ -1,5 +1,5 @@
 header {
-    background-color: #B1B8BC;
+    background-color: #000000;
 }
 
 header img {
@@ -8,4 +8,9 @@ header img {
     margin-right: auto;
     width: 15%;
     height: 15%;
+}
+
+div.recipe {
+    margin: auto;
+    width: 50%;
 }
