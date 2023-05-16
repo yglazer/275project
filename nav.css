@@ -41,10 +41,9 @@ nav li a:hover {
  nav li.current {
   background-color: #B1B8BC;
 }
-
-/*body > div, header, footer {
-  padding-left:120px;
-}*/
+ nav a.current {
+   color: black;
+ }
 
 nav li {
   display: inline;
