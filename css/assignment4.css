@@ -2,17 +2,25 @@
     width: 25%;
     margin: auto;
     padding: 10px;
+    border: none;
 }
 
 #carousel3, #carousel, #carousel2 {
     margin: auto;
-    width: 50%;
+    width: 700px !important;
+    height: 425px;
+}
+
+.d-block {
+    height: 425px;
+    width: 700px !important;
 }
 
 a.btn-primary {
     margin: auto;
     width: 100%;
     background-color: #650119;
+    outline-color: #650119;
 }
 
 
@@ -20,4 +28,10 @@ a.btn-primary {
     background:rgba(101,1,25,50%);
     color: #650119;
     box-shadow: none !important;
+    width: 750px;
+    margin: auto;
+}
+
+div.collapse {
+    collapse: collapsed;
 }

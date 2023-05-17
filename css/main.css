@@ -25,4 +25,17 @@ div.recipe > img {
 footer {
     background-color: #650119;
     color: #F1E8EA;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    margin-top: auto;
 }
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
