@@ -34,9 +34,36 @@
     <p class="card-text">Balabusta is here for you, providing delicious recipes right to your fingertips.</p>
     <a href="Balabusta%20-%20Sneak%20Peek.html" class="btn btn-primary">Get a sneak peek at some of our hits!</a>
       <a href="vuerecipes.html" class="btn btn-primary">Use our ingredient calculator!</a>
+
+      <div id="demo">
+          <br><br><br>
+          <h5>The Founders</h5>
+        <p id="demoText">Bracha Leah Gelbfish, Hindy London, and Yocheved Glazer are pioneers in the kosher food industry. With their talent and spice...</p>
+        <button id="see" type="button" onclick="loadDoc()">See More</button>
+        </div>
+
+        <script>
+        function loadDoc() {
+          var xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+              document.getElementById("demoText").innerHTML =
+              this.responseText;
+              document.getElementById("see").style.display = "none";
+            }
+          };
+          xhttp.open("GET", "aboutajax.txt", true);
+          xhttp.send();
+        }
+        </script>
   </div>
 </div>
 
+
+
+</body>
+</html>
+</div>
 
 </body>
 
