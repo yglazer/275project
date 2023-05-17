@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Join us!</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <link href="css/nav.css" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+
+  <script>
+    function validateForm() {
+      let x = document.forms["myForm"]["fname"].value;
+      if (x == "") {
+        alert("Name must be filled out");
+        return false;
+
+      }
+      let y = document.forms["myForm"]["email"].value;
+      if (y == "") {
+        alert("email must be filled out");
+        return false;
+    }}
+    $( function() {
+        $( "#datepicker" ).datepicker();
+      } );
+  </script>
+
+</head>
+<body>
+
+<header>
+<img src="photos/balabusta_logo.png" width=50 height=50 alt="Balabusta" />
+</header>
+<nav>
+    <ul>
+        <li class="current"><a class="current" href="about_us.html">About Us</a> </li>
+        <li><a href="dairy mains.html">Dairy Mains</a></li>
+        <li><a href="meat mains.html">Meat Mains</a></li>
+        <li><a href="sides.html">Sides</a></li>
+        <li><a href="salads.html">Salads</a></li>
+        <li><a href="soups.html">Soups</a></li>
+        <li><a href="desserts.html">Desserts</a></li>
+    </ul>
+</nav>
+
+<h2 id="formHead">Want to be updated and up-to-date?</h2>
+
+<form id="form" name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+  Name: <input type="text" name="fname" size=30 required><br>
+  Email: <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required><br>
+  Phone Number:<input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" ><br>
+  Birthday:<input type="text" id="datepicker" size=6 required><br>
+  <input type="submit" value="Yes!">
+</form>
+
+<footer>
+     Balabusta &#8226; balabustarecipies@gmail.com &#8226; 1-800-REC-IPES
+</footer>
+</body>
+</html>
+</html>

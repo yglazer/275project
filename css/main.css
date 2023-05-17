@@ -42,3 +42,44 @@ body {
     margin: auto;
 }
 
+#hello {
+    background-color: #B1B8BC;
+    color: white;
+    width: 60%;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+#toForm {
+    color: #650119;
+}
+
+#formHead {
+    text-align: center;
+    color: #650119;
+}
+
+#form {
+    background-color: #B1B8BC;
+    margin: auto;
+    padding: 10px;
+    border: #B1B8BC;
+    border-radius: 12px;
+
+}
+
+#form > input {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 7px 0px;
+}
+
+#form > * {
+    flex: 1 1 150px;
+}
+
+input {
+    border-radius: 12px;
+}
