@@ -12,6 +12,19 @@
     <link href="css/assignment4.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="usingVue.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"></script>
+    <script>
+        $(function () {
+            $("#aboutUs").button();
+            $("#aboutUs").click(function () {
+                $("#dialog").dialog({
+                    modal: true
+                });
+            });
+        });
+    </script>
 </head>
 <body>
 <header>
@@ -75,8 +88,17 @@
     <a href="Balabusta%20-%20Sneak%20Peek.html" class="btn btn-primary">Get a sneak peek at some of our hits!</a>
       <a href="vuerecipes.html" class="btn btn-primary">Use our ingredient calculator!</a>
 
-      <div id="demo">
-          <br><br><br>
+        <br/>
+   <br/>
+        <br/>
+        <a id="aboutUs"><img src="photos/aboutUsButton.jpg" width="30%" height="70%"  alt="About Us"/></a>
+    <div id="dialog" style="display: none">
+        BAlEBUSTA INC.
+        <br/>EST. 2023
+        <br/>BL Gelbfish, Y Glazer, H London
+    </div>
+        <div id="demo">
+            <br><br>
           <h5>The Founders</h5>
         <p id="demoText">Bracha Leah Gelbfish, Hindy London, and Yocheved Glazer are pioneers in the kosher food industry. With their talent and spice...</p>
         <button id="see" type="button" onclick="loadDoc()">See More</button>
