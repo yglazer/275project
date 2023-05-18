@@ -1,11 +1,11 @@
-body{background-color:lightgrey;}
+/*body{background-color:lightgrey;}*/
 
 
 h2 {
-  display: block;
-  color: #650119;
-  padding: 8px 16px;
+  /*display: block;
   text-decoration: none;
+  color: #650119;*/
+  padding: 8px 16px;
   height:5vh;
 }
 button {
@@ -15,7 +15,7 @@ button {
 
 #app {
     margin: auto;
-    width: 800px;
-    padding: 0;
+    /*width: 800px;
+    padding: 0;*/
     text-align: center;
 }

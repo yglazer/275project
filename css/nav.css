@@ -1,10 +1,10 @@
 nav ul {
-  list-style-type: none;
-  margin: 0;
   padding: 0;
-  /*width: 100px;*/
   background-color: #650119;
   /*height: 100%;
+  width: 100px;
+  list-style-type: none;
+  margin: 0;
   position: fixed;*/
   overflow: hidden;
 }
@@ -16,7 +16,8 @@ nav li a {
   text-decoration: none;
   height:5vh;
 
-  }
+}
+
 nav ul {
   border: 1px solid #000000;
 }
@@ -26,22 +27,25 @@ nav li {
   border-bottom: 1px solid #000000;
 }
 
-nav li a:active {
+/*nav li a:active {
   color: #000000;
 }
 
-/*li:last-child {*/
-/*  border-bottom: none;*/
-/*}*/
+li:last-child {
+  border-bottom: none;
+}*/
+
+
 nav li a:hover {
   background-color: #B1B8BC;
   color: black;
 }
 
- nav li.current {
+nav li.current {
   background-color: #B1B8BC;
 }
- nav a.current {
+
+nav a.current {
    color: black;
  }
 
@@ -51,10 +55,11 @@ nav li {
   width: 14.285714%;
 }
 
+/*
 .navbar {
   overflow: hidden;
   background-color: #333;
-}
+}*/
 
 .navbar a {
   float: left;
