@@ -70,7 +70,7 @@
       <input type="text" id="last-name" v-model="lastName">
 
       <br>
-      <div>Hello{{ fullName }}! Get right into your Balabusta gear!</div>
+      <div>Hello {{ fullName }}! Get right into your Balabusta gear!</div>
 
       <a href="form.html" id="toForm">Click here to join us!</a>
 
@@ -87,7 +87,7 @@
          },
          computed: {
             fullName: function() {
-               return this.firstName + ' ' + this.lastName;
+               return this.firstName + '' + this.lastName;
             }
          },
 
