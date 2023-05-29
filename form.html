@@ -56,14 +56,11 @@
 
 <h2 id="formHead">Want to be updated and up-to-date?</h2>
 
-<form id="form" name="myForm" target="_self" onsubmit=alert("Thank you!") method="post" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
-  Name: <input type="text" name="fname" size=30 required pattern="[A-Za-z]{2,}"><br>
+<form id="form" name="myForm" action="submit%20form%20shell.html" onsubmit="return validateForm()" method="post">
+    Name: <input type="text" name="fname" size=30 required><br>
   Email: <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required><br>
-  Phone Number:<input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" size=10 placeholder="999-999-9999" required><br>
+  Phone Number:<input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" ><br>
   Birthday:<input type="text" id="datepicker" size=6 required><br>
-How Many Recipes Do You Make A Week:<input type="range" id="a" value="50">
-+ How Many Recipes From Our Website Will You Make Weekly:<input type="number" id="b" value="25">
-= This Is How Many Meals Your Family Will Enjoy: <output name="x" for="a b"></output>
   <input type="submit" value="Yes!">
 </form>
 
